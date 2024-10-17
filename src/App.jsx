@@ -7,6 +7,9 @@ import "./App.css";
 const App = () => {
   return (
     <>
+      <h3 className="app-heading">
+        Simple React Bootstrap JSON-SERVER CRUD Application
+      </h3>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
